@@ -1,8 +1,8 @@
-# 🐍《超簡單 Python 小學生筆記》
+## 🐍《超簡單 Python 小學生筆記》
 
 ---
 
-## 🟦 1. `print()`：讓電腦說話
+### 🟦 1. `print()`：讓電腦說話
 
 ```python
 print("Hello!")  # 顯示 Hello!
@@ -12,7 +12,7 @@ print("Hello!")  # 顯示 Hello!
 
 ---
 
-## 🟦 2. `len()`：算字的長度
+### 🟦 2. `len()`：算字的長度
 
 ```python
 print(len("apple"))  # ➜ 5
@@ -23,7 +23,7 @@ print(len(","))      # ➜ 1
 
 ---
 
-## 🟦 3. `type()`：看資料是什麼型態
+### 🟦 3. `type()`：看資料是什麼型態
 
 ```python
 print(type(1))        # 整數 int
@@ -36,7 +36,7 @@ print(type(True))     # 布林值 bool
 
 ---
 
-## 🟦 4. 型態轉換（把東西換成另一種）
+### 🟦 4. 型態轉換（把東西換成另一種）
 
 ```python
 print(int(1.0))      # 小數變整數
@@ -55,7 +55,7 @@ print(str(1.234))    # 小數變字
 
 ---
 
-## 🟦 5. `input()`：讓使用者輸入東西
+### 🟦 5. `input()`：讓使用者輸入東西
 
 ```python
 a = input("請輸入一些文字：")
@@ -66,7 +66,7 @@ print(int(a) + 10)
 
 ---
 
-## 🟦 6. 計算圓面積的小練習
+### 🟦 6. 計算圓面積的小練習
 
 ```python
 pi = 3.14
@@ -79,7 +79,7 @@ print(f"圓的面積為：{area}")
 
 ---
 
-## 🟦 7. Streamlit：畫面漂亮的 Python 工具 ✨
+### 🟦 7. Streamlit：畫面漂亮的 Python 工具 ✨
 
 （這是給大人或老師看的畫面）
 
@@ -102,7 +102,7 @@ st.error("錯誤了 QQ")
 
 ---
 
-## 🟦 8. 比較運算子（比大小）
+### 🟦 8. 比較運算子（比大小）
 
 ```python
 print(1 == 1)  # 相等 ➜ True
@@ -115,7 +115,7 @@ print(2 <= 3)  # 小於等於
 
 ---
 
-## 🟦 9. 邏輯運算子（而且、或者、不）
+### 🟦 9. 邏輯運算子（而且、或者、不）
 
 ```python
 print(True and False)  # 兩個都要是 True 才是 True
@@ -127,7 +127,7 @@ print(not True)        # 相反意思
 
 ---
 
-## 🟦 10. 判斷式 `if`：密碼小遊戲
+### 🟦 10. 判斷式 `if`：密碼小遊戲
 
 ```python
 password = input("請輸入密碼：")
@@ -143,7 +143,7 @@ else:
 
 ---
 
-## 🟦 11. Streamlit 練習：顯示成績等級
+### 🟦 11. Streamlit 練習：顯示成績等級
 
 ```python
 number = st.number_input("請輸入你的分數：", step=1, min_value=0, max_value=100)
@@ -163,7 +163,7 @@ else:
 
 ---
 
-## 🎉 你學會了這些：
+### 🎉 你學會了這些：
 
 ✅ 顯示文字 `print()`
 ✅ 數字與文字的型態與轉換
