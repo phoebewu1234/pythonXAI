@@ -72,8 +72,8 @@ if "ans1" not in st.session_state:  # 如果session_state中沒有ans這個變�
     st.session_state.ans1 = 1  # 設定session_state.ans1=1
 
 if st.button("按下去ans加1", key="ans2"):  # 如果按下按鈕
-    st.session_state.ans1 = st.session_state.ans1 + 1  # session_state.ans加1
-st.write(f"ans = {st.session_state.ans1}")  # 顯示session_state.ans的值
+    st.session_state.ans1 + 1  # session_state.ans加1
+st.write(f"ans = {stst.session_stat.session_state.ans1}")  # 顯示session_state.ans的值
 
 # 有時候按鈕按下，不一定會重新整理整個畫面
 # 這時候可以使用st.rerun()強制重新整理畫面
